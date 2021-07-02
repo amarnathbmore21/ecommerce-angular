@@ -10,11 +10,11 @@ import { ProductsService } from '../services/products.service';
 export class DetailsProductsComponent implements OnInit {
 
   constructor(private activatedRoute: ActivatedRoute, private service: ProductsService, private router: Router) { }
-  id: number = 0;
+  id: any = 0;
   productDescription: any = null;
 
   ngOnInit(): void {
-    this.id = parseInt(this.activatedRoute.snapshot.paramMap.get('id'));
+    this.id = this.activatedRoute.snapshot.paramMap.get('id');
     this.getProductDescription(this.id);
   }
 
