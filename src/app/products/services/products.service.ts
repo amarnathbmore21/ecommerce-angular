@@ -23,6 +23,14 @@ export class ProductsService {
       description:"varius. Vestibulum consectetur arcu at sem ultrices consectetur. Nunc sit amet pulvinar ante, id interdum purus. Vestibulum finibus, mauris facilisis imperdiet convallis, metus ex iaculis leo, quis aliquam ligula diam pretium mauris. Integer commodo commodo dolor. Nunc lacinia volutp",
       image:"https://i.ytimg.com/vi/ETsekJKsr3M/maxresdefault.jpg",
       stars:"150"
+    },
+    {
+      id:2,
+      name:'Product 3',
+      quantity: 15,
+      description:"varius. Vestibulum consectetur arcu at sem ultrices consectetur. Nunc sit amet pulvinar ante, id interdum purus. Vestibulum finibus, mauris facilisis imperdiet convallis, metus ex iaculis leo, quis aliquam ligula diam pretium mauris. Integer commodo commodo dolor. Nunc lacinia volutp",
+      image:"https://cdn.vox-cdn.com/thumbor/D9XXOcVoGDtJCIJHpHbi_OKI5hY=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/9283449/jbareham_170916_2000_0057.jpg",
+      stars:"150"
     }
   ]
 
