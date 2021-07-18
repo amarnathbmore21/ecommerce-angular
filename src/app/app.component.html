@@ -1,7 +1,12 @@
 <div>
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <span class="navbar-brand mb-0 h1"> Ecommerce </span>
+      <form class="d-flex">
+        <button class="btn btn-outline-success" type="submit"  (click)="goToProductPanel();">Product Panel</button>
+        <button class="btn btn-outline-success" type="submit"  style="margin-left: 10px;" (click)="goToAddProduct();">Add Product</button>
+        <button class="btn btn-outline-success" type="submit" style="margin-left: 10px;" (click)="goToAdminPanel();">Admin Panel</button>
+      </form>
     </div>
   </nav>
 </div>

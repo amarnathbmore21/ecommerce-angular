@@ -10,11 +10,11 @@ import { ProductsService } from '../services/products.service';
 export class DetailsProductsComponent implements OnInit {
 
   constructor(private activatedRoute: ActivatedRoute, private service: ProductsService, private router: Router) { }
-  id: any = 0;
+  id: number = 0;
   productDescription: any = null;
 
   ngOnInit(): void {
-    this.id = this.activatedRoute.snapshot.paramMap.get('id');
+    this.id = Number(this.activatedRoute.snapshot.paramMap.get('id'));
     this.getProductDescription(this.id);
   }
 
@@ -22,5 +22,8 @@ export class DetailsProductsComponent implements OnInit {
     this.productDescription = this.service.getProductDetails(id);
   }
 
-}
+  goBack(): void {
+    this.router.navigate(['']);
+  }
 
+}
