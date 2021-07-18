@@ -25,7 +25,7 @@ export class ProductsService {
       stars:"150"
     },
     {
-      id:2,
+      id:3,
       name:'Product 3',
       quantity: 15,
       description:"varius. Vestibulum consectetur arcu at sem ultrices consectetur. Nunc sit amet pulvinar ante, id interdum purus. Vestibulum finibus, mauris facilisis imperdiet convallis, metus ex iaculis leo, quis aliquam ligula diam pretium mauris. Integer commodo commodo dolor. Nunc lacinia volutp",
